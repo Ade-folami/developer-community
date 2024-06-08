@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  background-image: linear-gradient(to bottom right, #d479e9cc, #f0e9d3cc), url("signup.ac22434f.jpg");
+  background-position: top;
+  background-size: cover;
+  border-radius: 2rem;
+  height: 75%;
+  padding: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  margin-top: 4rem;
+  font-family: arial;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.main-text {
+  background-color: #eee;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: 3rem;
+  font-family: arial;
+}
+
+.main-text__paragraph {
+  font-size: 1.3rem;
+}
+
+.input__email {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.input__email::placeholder {
+  color: #e24fdd;
+}
+
+.input__username {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.input__username::placeholder {
+  color: #e24fdd;
+}
+
+.input__password {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.input__password::placeholder {
+  color: #e24fdd;
+}
+
+.main-text__terms {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.btn__accept {
+  color: #e24fdd;
+  background-color: #000;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all .5s;
+  display: inline-block;
+  box-shadow: 0 1rem 1.3rem #0006;
+}
+
+.btn__accept:active {
+  transform: translateY(1rem)scale(1.05);
+}
+/*# sourceMappingURL=sign up page.ed13a3cd.css.map */

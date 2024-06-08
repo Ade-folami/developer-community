@@ -1,0 +1,128 @@
+body {
+  background-color: gray;
+  position: relative;
+}
+
+section {
+  background-color: #00f;
+  align-items: center;
+  width: 80%;
+  height: 70vh;
+  position: absolute;
+  top: 5rem;
+  left: 10rem;
+}
+
+.top {
+  background-color: #fff;
+  height: 35vh;
+  line-height: 1cm;
+  position: relative;
+}
+
+.top__content {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+}
+
+.heading-primary {
+  color: #6fdbd0;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.span1 {
+  color: #90ee90;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.span2 {
+  color: gray;
+  font-family: calibri;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.row {
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+[class^="col-"] {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.price {
+  background-color: #00c8be;
+}
+
+.heading-secondary {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  transform: translateX(3rem);
+}
+
+.price-value {
+  color: #fff;
+  word-spacing: .2rem;
+  margin-left: 3rem;
+  font-family: helvetica;
+}
+
+.price-value__dollars {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.price-value__story {
+  color: #fff;
+  margin-left: 2.5rem;
+  font-family: arial;
+  font-weight: 300;
+}
+
+.btn, .btn:visited {
+  text-align: center;
+  color: #fff;
+  background-color: #68df44;
+  border-radius: .5rem;
+  align-items: center;
+  width: 70%;
+  margin-left: 1rem;
+  padding: 1rem 3rem;
+  font-family: arial;
+  text-decoration: none;
+  transition: all .5s;
+  display: inline-block;
+  box-shadow: 0 1rem 1.3rem #0006;
+}
+
+.btn:active {
+  transform: translateY(1rem)scale(1.05);
+}
+
+.value {
+  background-color: #2fccc4;
+}
+
+.list {
+  color: #fff;
+  align-items: center;
+  margin-top: -.5rem;
+  font-family: calibri;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.list > * {
+  margin-bottom: .3rem;
+}
+/*# sourceMappingURL=index.b2625c6b.css.map */

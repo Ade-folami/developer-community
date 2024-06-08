@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #eee;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(212, 121, 233, 0.8),
+      rgba(240, 233, 211, 0.8)
+    ),
+    url(../signup.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 2rem;
+  height: 75%;
+}
+.heading {
+  font-family: arial;
+  font-weight: 900;
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+.main-text {
+  background-color: #eee;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  padding: 3rem;
+  font-family: arial;
+}
+.main-text__paragraph {
+  font-size: 1.3rem;
+}
+.input__email {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.input__email::placeholder {
+  color: #e24fdd;
+}
+.input__username {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.input__username::placeholder {
+  color: #e24fdd;
+}
+.input__password {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.input__password::placeholder {
+  color: #e24fdd;
+}
+.main-text__terms {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/*Testing...might delete later*/
+.btn__accept {
+  padding: 1rem 2rem;
+  color: #e24fdd;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  box-shadow: 0rem 1rem 1.3rem rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+}
+.btn__accept:active {
+  transform: translateY(1rem) scale(1.05);
+}
